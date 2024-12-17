@@ -21,6 +21,10 @@ const jobSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    job_link:{
+      type:String,
+      required:true
+    }
   },
   { timestamps: true }
 );
